@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(249, 172, 252);
+    
+}
+
+#btn{
+    border: solid 1px rgb(243, 49, 250);
+    border-radius: 20px;
+    color: rgb(2, 0, 2);
+    background-color: white;
+    transition: background-color 1.0s ease, color 1.0s ease, transform 1.0s ease;
+    size: 200px;
+}
+select{
+    height: 200px;
+    width: 100px;
+    background-color: beige;
+}
+
+label{
+    border: solid 1px black;
+    
+}
+
+head{
+    
+}
+
