@@ -5,7 +5,7 @@ body {
     color: rgb(7, 7, 7);
     margin: 0;
     padding: 0;
-    text-align-last: center;
+    text-align: center;
 }
 
 /* Estilo para o cabeçalho */
@@ -23,26 +23,55 @@ select {
 /* Estilo para a seção principal */
 label {
     padding: 50px;
-    border: solid 1px black;
-    
-   
 }
 
+/* ---------------------------------------------------------------------------- */
+/* Configuração de flexbox para alinhar elementos lado-a-lado  */
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin: 0;
+
+}
+.flex-item-1{
+    width: 300px;
+    
+}
+.flex-item-2{
+    width: 200px;
+    
+}
+/* ---------------------------------------------------------------------------- */
+form{
+    border: 1px solid black;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    max-width: 500px;
+    max-height: 400px;
+    
+}
 
 /* Estilo para as seções */
-head {
+/* head {
     margin-bottom: 20px;
 
-}
+} */
 
 /* Estilo para os botões */
 #btn {
     background-color: #b990e7;
     color: rgb(0, 0, 0);
-    padding: 20px 20px;
+    padding: 10px 100px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    
 }
 
 
