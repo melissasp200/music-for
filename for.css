@@ -1,28 +1,49 @@
-body{
-    background-color: rgb(249, 172, 252);
-    
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d992fa;
+    color: rgb(7, 7, 7);
+    margin: 0;
+    padding: 0;
+    text-align-last: center;
 }
 
-#btn{
-    border: solid 1px rgb(243, 49, 250);
-    border-radius: 20px;
-    color: rgb(2, 0, 2);
-    background-color: white;
-    transition: background-color 1.0s ease, color 1.0s ease, transform 1.0s ease;
-    size: 200px;
-}
-select{
-    height: 200px;
+/* Estilo para o cabeçalho */
+select {
+    background-color: #e9d8f1;
+    color: rgb(19, 1, 1);
+    padding: 20px;
+    text-align: center;
     width: 100px;
-    background-color: beige;
+    height: 100px;
+    border-radius: 10px;
 }
 
-label{
+
+/* Estilo para a seção principal */
+label {
+    padding: 50px;
     border: solid 1px black;
     
+   
 }
 
-head{
-    
+
+/* Estilo para as seções */
+head {
+    margin-bottom: 20px;
+
 }
+
+/* Estilo para os botões */
+#btn {
+    background-color: #b990e7;
+    color: rgb(0, 0, 0);
+    padding: 20px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
 
